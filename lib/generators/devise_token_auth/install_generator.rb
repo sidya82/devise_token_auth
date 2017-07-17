@@ -69,7 +69,7 @@ module DeviseTokenAuth
   field :unconfirmed_email, type: String
 
   ## unique oauth id
-  field :provider, type: String
+  field :provider, type: String, default: "email"
   field :uid, default: ""
 
   ## Tokens

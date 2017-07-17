@@ -32,7 +32,7 @@ class MongoidUser
   field :nickname, type: String
   field :image, type: String
 
-  field :provider, type: String
+  field :provider, type: String, default: "email"
   field :uid, default: ""
 
   ## Tokens
